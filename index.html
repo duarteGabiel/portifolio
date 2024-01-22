@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Batista</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="hero-container" id="Home">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#sobremim">Sobre mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Procurando um desenvolvedor FullStack?</h1>
+        <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+    </div>
+    <div class="content-container" id="sobremim">
+        <div class="profile-container">
+            <div class="profile-content">
+                <div class="profile-card">
+                    <img class="profile-image" src="./WhatsApp Image 2024-01-22 at 12.36.32.jpeg" />
+                    <span class="name-text">Gabriel Batista</span>
+                    <span class="profile-text">
+                        Foco, disciplica e consistência.
+                        Vamos revolucionar o mercado de tecnologia juntos?
+                    </span>
+                    
+                    <div class="divider"></div>
+                    <div class="icons-container">
+                        <img class="icon-item" src="./js.png" />
+                        <img class="icon-item" src="./node.png"  />
+                        <img class="icon-item" src="./react.png" />
+                    </div>
+                </div>
+            </div>
+
+            <p class="profile-sinopse">
+                Desenvolvedor Full Stack com amplo conhecimento em Javascript, React.js e Node.js,
+                com curso recém concluído agora apto para entrar no mercado da programação e
+                Começar uma nova jornada nesse mundo. Tendo vários projetos em meu portifólio tal
+                deles como um site de vendas de ingresso do Batman, um clone do YouTube e um clone do WhatsApp
+                com chat em tempo real integrado, tendo conhecimento em análise de dados e automações em
+                Python desenvolvi uma automação de cadastro de produto no meu antigo serviço assim 
+                facilitando a vida cotidiana de meus colegas não tendo mais que realizar cadastros todos
+                os dias. Agora encaro o desafio de entrar no mercado de desenvolvedor web e começar minha
+                jornada de desafios nesse vasto oceano de oportunidades.
+            </p>
+        </div>
+    </div>
+
+    <div class="content-container" id="projetos">
+        <div class="project-container">
+            <div class="project-content">
+                
+                <div class="position-container right">
+                    <div class="project-card">
+                        <image class="project-image" src="./batmanimage.jpeg" />
+                        <p class="project-text">
+                            Um site de vendas de ingresso do Batman desenvolvido com HTML e CSS onde é possível 
+                            ver toda a temática do filme Batman, assim como seu trailer e os principais atores nele
+                            foi meu primeiro contato com programação sem ter muito experiencia tentei fazer uma página de contato
+                            Onde você inseria seus dados para enviar ao vendedor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-container left">
+                    <div class="project-card card-reverse">
+                        <image class="project-image image-reverse" src="./youtube.png" />
+                        <p class="project-text">
+                            Esse é um clone do YouTube, o front-end feito com react.js e TypeScript permite
+                            uma experiência idêntica ao do YouTube, pois tem sua API de vídeos integradas podendo fazer
+                            pesquisa de quaisquer vídeos que estejam no YouTube, você também pode criar uma conta e criar
+                            os seus vídeos nesse clone o back-end por sua vez feito com node.js tendo um banco de dados 
+                            integrado possibilitando a criação e armazenamento de login e vídeos no site, assim você pode 
+                            Sempre estar logado para acessar suas informações e vídeos a qualquer hora.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-container right">
+                    <div class="project-card">
+                        <image class="project-image" src="./wppimage.jpeg" />
+                        <p class="project-text">
+                            Esse é um clone do WhatsApp web, bem simples, o front-end feito com React e JavaScript, tendo um visual
+                            bem parecido e o back-end feito com node.js e socket.io permitindo a interação das pessoas em um grupo de 
+                            Conversa onde o chat em tempo real retorna as mensagens quase que instantâneas.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-container" id="contato">
+        <div class="form-container">
+            <form
+                action="https://formspree.io/f/mgegooww"
+                method="POST"
+            >
+                <label>
+                    Email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Nome:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Telefone:
+                    <input type="text" name="fone">
+                </label>
+                <label>
+                    Mensagen:
+                    <textarea name="message"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <div class="mais-info-container">
+                <p class="info">Gostou do que viu ! quer ver mais dos meus projetos?</p>
+                <a href="https://github.com/duarteGabiel" target="_blank">
+                    <button>Clique aqui</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
